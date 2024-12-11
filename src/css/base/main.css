@@ -1,84 +1,36 @@
-/* Styles de base */
+body{
+    font-family: var(--body1f);
+    font-size: var(--body1);
+}
 
-body {
-    font-family: var(--body1);
+h1{
+    font-family: var(--hea1);
+    font-family: var(--hea1f);
+}
+
+h2{
+    font-family: var(--hea2);
+    font-family: var(--hea2f);
+}
+
+h3{
+    font-family: var(--hea3);
+    font-family: var(--hea3f);
+}
+
+title{
+    font-family: var(--title);
+    font-family: var(--titlef);
+}
+
+button{
+    font-family: var(--bouton);
+    font-family: var(--boutonf);
+}
+
+.body{
     background-color: #282828;
     color: #fff;
-}
-
-/* Header */
-.festival-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #282828;
-}
-
-.festival-header .logo {
-    display: flex;
-    align-items: center;
-}
-
-.festival-header .logo img {
-    height: 30px;
-    margin-right: 10px;
-}
-
-.festival-header .logo span {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.festival-header .menu-icon {
-    font-size: 24px;
-    cursor: pointer;
-}
-
-/* Bannière */
-.banner img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* Présentation */
-.presentation {
-    padding: 20px;
-    text-align: center;
-    background-color: #282828;
-}
-
-.presentation h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.presentation p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-
-.cta {
-    margin-top: 20px;
-}
-
-.cta a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #e60000;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.cta a:hover {
-    background-color: #ff3333;
 }
 
 

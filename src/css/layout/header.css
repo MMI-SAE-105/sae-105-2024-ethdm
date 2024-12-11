@@ -1,10 +1,4 @@
-body {
-    font-family: var(--font-sans-serif);
-    font-size: var(--fs-s);
-    line-height: 1.6;
-    background-color: var(--gray-white);
-    font-weight: 300;
-  }
+
 
 .festival-header {
     display: flex;
@@ -26,8 +20,8 @@ body {
 }
 
 .festival-header .logo span {
-    font-family: 'Georgia', serif;
-    font-size: 18px;
+    font-family: var(---hea1f);
+    font-size: var(--hea1);
     font-weight: bold;
     color: #fff;
 }

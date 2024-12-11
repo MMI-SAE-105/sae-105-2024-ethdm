@@ -1,8 +1,6 @@
 body {
-    margin: 0;
-    font: 'Georgia', serif;
-    background-color: #282828;
-    color: #fff;
+    font-family: var(--body1f);
+    font-size: var(--body1);
 }
 
 header.festival-header {
