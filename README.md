@@ -3,10 +3,10 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
+- NOM : Hennequin De Meyer
+- PRÉNOM : Ethan
+- GROUPE : B1
+- URL du site : https://festivhaloween.netlify.app/
 - URL FIGMA :
 
 ## Sujet
