@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font: 'Georgia', serif;
+    background-color: #282828;
+    color: #fff;
+}
+
+header.festival-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282828;
+    color: #fff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+header .logo span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+}
+
+nav.menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav.menu.open {
+    display: flex;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav.menu ul li {
+    margin: 20px 0;
+}
+
+nav.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav.menu ul li a:hover {
+    color: #e60000;
+}

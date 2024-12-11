@@ -1,0 +1,26 @@
+:root {
+    /* Color styles */
+    --background: #282828;
+    --txt: #FFFFFF;
+    --logo: #FF1717;
+    --couleur-secondaire: #E6010D;
+    --anthracite: #383838;
+    --white: #212121;
+
+    /* Text-size styles */
+    --hea1: 36px;
+    --hea2: 24px;
+    --hea3: 16px;
+    --body1: 16px;
+    --title: 24px;
+    --bouton: 22px;
+      
+    /* Font-family styles */
+    --hea1f: "Alegreya SC", serif;
+    --hea2f: "Almendra", serif;
+    --hea3f: "Adamina", serif;
+    --body1f: "Antic Didone", serif;
+    --titlef: "Almendra SC", serif;
+    --boutonf: "Lilita One", serif;
+    }
+      

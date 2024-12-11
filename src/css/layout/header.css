@@ -1,0 +1,39 @@
+body {
+    font-family: var(--font-sans-serif);
+    font-size: var(--fs-s);
+    line-height: 1.6;
+    background-color: var(--gray-white);
+    font-weight: 300;
+  }
+
+.festival-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282828;
+    color: #fff;
+}
+
+.festival-header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.festival-header .logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.festival-header .logo span {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.festival-header .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+}
