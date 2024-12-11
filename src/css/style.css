@@ -13,8 +13,10 @@
 
 /* composant */
 @import "composant/composant.css";
+@import "/src/css/composant/carroussel.css";
 
 /* layout */
 @import "layout/header.css";
 @import "layout/menu.css";
+@import "/src/css/layout/footer.css"
 
