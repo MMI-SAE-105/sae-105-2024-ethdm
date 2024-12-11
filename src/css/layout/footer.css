@@ -1,14 +1,14 @@
-/* Footer Styles */
+
+
 .site-footer {
-    background-color: #1a1a1a;
+    background-color: #282828;
     color: #fff;
     padding: 20px;
     text-align: center;
-    font-family: 'Georgia', serif;
 }
 
-.site-footer h2 {
-    font-size: 24px;
+.site-footer h3 {
+    font-size: 38px;
     color: #e60000;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -17,6 +17,7 @@
 .logo-footer img {
     height: 50px;
     margin: 10px 0;
+    border-radius: 45px;
 }
 
 .social-icons {
@@ -34,7 +35,7 @@
 }
 
 .social-icons a:hover {
-    color: #ff3333;
+    color: #e60000;
     transform: scale(1.2);
 }
 
