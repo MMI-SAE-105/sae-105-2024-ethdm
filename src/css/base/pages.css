@@ -32,7 +32,7 @@
 .festival-presentation__button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: red; /* Couleur du bouton */
+    background-color: red; 
     color: white;
     text-decoration: none;
     font-size: 1em;
@@ -41,5 +41,6 @@
 }
 
 .festival-presentation__button:hover {
-    background-color: darkred; /* Changement de couleur au survol */
+    background-color: darkred; 
 }
+

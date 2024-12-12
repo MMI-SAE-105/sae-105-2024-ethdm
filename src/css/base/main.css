@@ -9,27 +9,27 @@ body {
 }
 
 h1{
-    font-family: var(--hea1);
+    font-size: var(--hea1);
     font-family: var(--hea1f);
 }
 
 h2{
-    font-family: var(--hea2);
+    font-size: var(--hea2);
     font-family: var(--hea2f);
 }
 
 h3{
-    font-family: var(--hea3);
+    font-size: var(--hea3);
     font-family: var(--hea3f);
 }
 
 title{
-    font-family: var(--title);
+    font-size: var(--title);
     font-family: var(--titlef);
 }
 
 button{
-    font-family: var(--bouton);
+    font-size: var(--bouton);
     font-family: var(--boutonf);
 }
 
