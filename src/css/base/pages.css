@@ -44,3 +44,141 @@
     background-color: darkred; 
 }
 
+
+.program-section {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.program-item {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.program-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-item a:hover img {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.program-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.program-item h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+.program-item p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.daily-schedule {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: 'Georgia', serif;
+}
+
+.daily-schedule p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.daily-schedule ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.daily-schedule li {
+    margin-bottom: 20px;
+}
+
+.daily-schedule strong {
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.transport-section {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+}
+
+.transport-section h1 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.transport-section p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.transport-item h2 {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.transport-item p {
+    margin: 5px 0 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.film-registration {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.film-registration h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.film-registration p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+/* stop faire une classe a chaque fois, mettre tout dans la meme (plus rapide) */
+

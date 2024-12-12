@@ -1,14 +1,16 @@
 
 
+
 .site-footer {
-    background-color: #282828;
+    background-color: #212121;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
-.site-footer h3 {
-    font-size: 38px;
+.site-footer h2 {
+    font-family: 'Alegreya SC',sans-serif;
+    font-size: var(--hea1);
     color: #e60000;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -50,8 +52,9 @@
 }
 
 .footer-links a {
+    font-family: 'Antic Didone',sans-serif;
     font-size: 16px;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s;
     text-transform: uppercase;
