@@ -18,7 +18,7 @@
     transition: background-color 0.3s;
 }
 
-/* Section des détails de l'événement */
+
 .event-details {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -48,4 +48,27 @@
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #212121;
+}
+
+.banner img {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 20px; 
+    border-radius: 0px; 
+}
+
+.button {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: var(--boutonf);
+    font-size: var(--bouton);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #212121;
+    border : solid 2px;
+    color: #FF1717;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0px;
+    transition: background-color 0.3s;
 }

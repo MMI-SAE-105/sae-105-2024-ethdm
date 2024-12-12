@@ -1,6 +1,11 @@
-body{
+body {
     font-family: var(--body1f);
-    font-size: var(--body1);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
 }
 
 h1{
@@ -32,6 +37,8 @@ button{
     background-color: #282828;
     color: #fff;
 }
+
+
 
 
 

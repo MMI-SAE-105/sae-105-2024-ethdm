@@ -7,13 +7,40 @@
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body class="body">
-    <header class="festival-header">
-        <div class="logo">
-            <img src="assets/logo.svg" alt="Festiv'Halloween Logo">
-            <span>Festiv'Halloween</span>
+    <header class="header container">
+        <a href="index.html"><h1 class="header__title">Festiv'Halloween</h1></a>
+        <div
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span class="menu-btn__bar"></span>
+    </div>
+  
+          <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+              <li class="menu__item">
+                <a class="menu__link" href="/pages/prog.html">Programmation</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/pages/Infopratiques.html">Infos pratiques</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#Billeterie">Billetterie</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/pages/apropos.html">Qui sommes nous ?</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/pages/contact.html">Nous contacter</a>
+              </li>
+            </ul>
+            <div class="menu__round"></div>
+          </nav>
+          
         </div>
-        <div class="menu-icon">☰</div>
-    </header>
+      </header>
 
     <div class="banner">
         <img src="assets/midsommarillustration.jpg" alt="Image du Festival">
@@ -38,8 +65,26 @@
         </p>
     </section>
 
+    <a href="#" class="button">Accès à la billetterie</a>
 
-<script src="script.js"></script>
+    <div class="carousel">
+        <div class="carousel__container">
+            <div class="carousel__item">
+                <img src="/assets/projection.jpg" alt="Image 1">
+            </div>
+            <div class="carousel__item">
+                <img src="/assets/confdepresse.jpg" alt="Image 2">
+            </div>
+            <div class="carousel__item">
+                <img src="/assets/défilé.jpg" alt="Image 3">
+            </div>
+        </div>
+        <button class="carousel__button carousel__button--prev">❮</button>
+        <button class="carousel__button carousel__button--next">❯</button>
+    </div>
+<script src="/src/js/script.js"></script>
+
+
 </body>
 </html>
 
@@ -62,12 +107,15 @@
             <img src="/assets/x.svg" alt="Logo tiktok">
         </a>
     </div>
+
+
+
     <div class="footer-links">
-        <a href="#about">À Propos</a>
-        <a href="#programming">Programmation</a>
-        <a href="#contact">Contact</a>
-        <a href="#tickets">Billetterie</a>
+        <a href="/pages/apropos.html">À Propos</a>
+        <a href="/pages/prog.html">Programmation</a>
+        <a href="/pages/contact.html">Contact</a>
+        <a href="#billeterie">Billetterie</a>
         <a href="#legal">Mentions légales</a>
-        <a href="#registration">Inscription</a>
+        <a href="#inscriptions">Inscription</a>
     </div>
 </footer>

@@ -1,74 +1,80 @@
-body {
-    font-family: var(--body1f);
-    font-size: var(--body1);
-}
-
-header.festival-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #282828;
-    color: #fff;
-}
-
-header .logo {
-    display: flex;
-    align-items: center;
-}
-
-header .logo img {
-    height: 30px;
-    margin-right: 10px;
-}
-
-header .logo span {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-header .menu-icon {
-    font-size: 24px;
-    cursor: pointer;
-    color: #fff;
-}
-
-nav.menu {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1a1a1a;
-    height: 100vh;
-    justify-content: center;
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-nav.menu.open {
     display: flex;
-}
-
-nav.menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    position: fixed;
+    inset: 0;
+    background-color: #282828;
+    font-size: var(--hea2);
+    font-family: var(--hea2f);
+    transition: all 0.4s ease-in-out;
     text-align: center;
-}
-
-nav.menu ul li {
-    margin: 20px 0;
-}
-
-nav.menu ul li a {
+  }
+  .menu[aria-hidden="false"] {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .menu__list {
+    list-style: none;
+    margin-top: 25vh;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  
+  .menu__item {
+    margin-top: 15%;
+  }
+  
+  .menu__link {
+    color: white;
     text-decoration: none;
-    font-size: 20px;
-    color: #fff;
-    transition: color 0.3s;
-}
+  }
+  
+  .menu-btn {
+    margin-top: 36px;
+    position: relative;
+    z-index: 3;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .menu-btn__bar,
+  .menu-btn__bar::before,
+  .menu-btn__bar::after {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .menu-btn__bar::before {
+    top: -10px;
+  }
+  
+  .menu-btn__bar::after {
+    top: 10px;
+  }
+  
+  
+  .menu-btn[aria-expanded="true"] .menu-btn__bar,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: white;
+  }
+  
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+  }
+  
 
-nav.menu ul li a:hover {
-    color: #e60000;
-}

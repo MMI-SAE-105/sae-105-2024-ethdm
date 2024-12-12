@@ -1,33 +1,17 @@
 
-
-.festival-header {
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 50px 25px;
     background-color: #282828;
-    color: #fff;
 }
 
-.festival-header .logo {
-    display: flex;
-    align-items: center;
-}
-
-.festival-header .logo img {
-    height: 30px;
-    margin-right: 10px;
-}
-
-.festival-header .logo span {
-    font-family: var(---hea1f);
+.header__title{
     font-size: var(--hea1);
-    font-weight: bold;
-    color: #fff;
-}
-
-.festival-header .menu-icon {
-    font-size: 24px;
-    cursor: pointer;
-    color: #fff;
+    font-family: var(--hea1f);
+    font-weight: 400;
+    color: white;
+    margin-left: 2rem;
+    -webkit-text-stroke:0.5px var(--bleu); ;
 }

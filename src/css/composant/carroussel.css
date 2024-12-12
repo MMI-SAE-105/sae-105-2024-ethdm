@@ -1,0 +1,56 @@
+/* Global Styles */
+
+
+/* Carousel Styles */
+.carousel {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.carousel__container {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel__item {
+    min-width: 100%;
+    text-align: center;
+}
+
+.carousel__item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Navigation Buttons */
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.carousel__button--prev {
+    left: 10px;
+}
+
+.carousel__button--next {
+    right: 10px;
+}
+
+.carousel__button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
