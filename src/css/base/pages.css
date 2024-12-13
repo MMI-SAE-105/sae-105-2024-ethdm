@@ -419,3 +419,9 @@
     margin: 5px 0;
     color: #cccccc;
 }
+
+.contacterlef{
+    font-family: var(--hea1f);
+    font-size: var(--hea1);
+    font-weight: 400;
+}
