@@ -15,12 +15,19 @@
     font-weight: 400;
     color: white;
     margin-left: -1rem;
-    -webkit-text-stroke:0.5px var(--bleu); ;
 }
 
 .header__menu-btn{
-        z-index: 10;
-        position: absolute;
-        top: -15px;
-        right: 1px;
+    z-index: 10;
+    position: absolute;
+    top: -15px;
+    right: 1px;
+}
+
+.headerprog{
+    font-size: var(--hea1);
+    font-family: var(--hea1f);
+    font-weight: 400;
+    color: white;
+    margin-left: 0.5rem;
 }

@@ -54,8 +54,7 @@
 
     <section class="presentation">
         <section class="presentationtitle">
-        <h1>Présentation du Festival</h1>
-    </section>
+            <h1>Présentation du Festival</h1>
         <p>Le festival Festiv'Halloween, qui se déroulera à Montbéliard pendant la période d'Halloween, est une initiative novatrice dédiée aux films d'horreur et d'épouvante. </p>
         <br>
         <p>Avec une programmation variée projetée toute la nuit, cet événement vise à combler un vide en Franche-Comté, où les festivals de ce genre sont inexistants. Le public cible inclut principalement les jeunes, grands amateurs de sensations fortes, ainsi que les passionnés de thrillers et de films gore.</p> 
@@ -64,10 +63,12 @@
         <br>
         <p>Festiv'Halloween promet ainsi de devenir un rendez-vous incontournable pour les amateurs de cinéma d'horreur, tout en mettant en avant le cinéma Le Colisée et en offrant une plateforme aux créateurs du genre.</p>
         </p>
-        <div class="bouton1">
-            <a href="#details">En savoir plus</a>
-        </div>
     </section>
+    <div class="bouton1">
+        <a href="#details">En savoir plus</a>
+    </div>
+
+</section>
 
     <section class="presentation">
         <section class="presentationtitle">
@@ -78,33 +79,39 @@
         </p>
     </section>
 
-    <div class="carousel">
-    <section class="carousel__name">
-        <h1>Programmation</h1>
-    </section>
-        <div class="carousel__container">
-            <div class="carousel__item">
-                <img src="/assets/projection.jpg" alt="Image 1">
-            </div>
-            <div class="carousel__item">
-                <img src="/assets/confdepresse.jpg" alt="Image 2">
-            </div>
-            <div class="carousel__item">
-                <img src="/assets/défilé.jpg" alt="Image 3">
+    <div class="carousel_container" aria-labelledby="carousel-heading">
+        <div class="carousel_ecran">
+                <div class="items_carousel" role="region" aria-live="polite">
+                    <div class="section__carousel">
+                        <img class="imgcar" src="/assets/projection.jpg">
+                        </div>
+                </div>
+                <div class="items_carousel" role="region" aria-live="polite">
+                    <div class="section__carousel">
+                        <img class="imgcar" src="/assets/confdepresse.jpg">
+                        </div>
+                    </div>
+            <div class="items_carousel" role="region" aria-live="polite">
+                <div class="section__carousel">
+                    <img class="imgcar" src="/assets/défilé.jpg">
+                    </div>
             </div>
         </div>
-        <button class="carousel__button carousel__button--prev">❮</button>
-        <button class="carousel__button carousel__button--next">❯</button>
         <div class="bouton1">
             <a href="#details">En savoir plus</a>
         </div>
     </div>
+    </div>
+
+
+
 
     <div class="bouton2">
         <a href="#details">Accès à la Billetterie</a>
     </div>
 
 <script src="/src/js/script.js"></script>
+<script src="/src/js/carrousel.js"></script>
 
 </body>
 </html>

@@ -1,3 +1,42 @@
+.presentation {
+    padding-top: 10px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: #212121;
+    color: #fff;
+    padding-bottom: 74px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.presentationtitle {
+    text-align: center;
+}
+
+
+.presentation h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.presentation h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.presentation p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    color: #ccc;
+}
+
 .festival-presentation {
     display: flex;
     flex-direction: column;
@@ -48,15 +87,15 @@
 .program-section {
     background-color: #282828;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .program-item {
     background-color: #282828;
-    padding: 15px;
+    padding: 10px;
     overflow: hidden;
 }
 
@@ -80,14 +119,15 @@
 
 .program-item h2 {
     font-family: var(--hea2f);
-    font-size: 20px;
+    font-size: var(--hea2);
     margin: 10px 0;
     text-align: center;
     color: #ffffff;
 }
 
 .program-item p {
-    font-size: 14px;
+    font-family: var(--body1f);
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -120,10 +160,9 @@
 
 
 .transport-section {
-    background-color: #1a1a1a;
     color: #fff;
     padding: 20px;
-    font-family: 'Georgia', serif;
+    font-family: var(--body1f);
     line-height: 1.6;
 }
 
@@ -131,11 +170,21 @@
     font-size: 24px;
     color: #ffffff;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 .transport-section p {
+    font-family: var(--body1f);
     margin: 10px 0;
     font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.transport-item h1 {
+    font-family: var(--hea1f);
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .transport-item h2 {
@@ -143,19 +192,28 @@
     color: #fff;
     margin-top: 20px;
     margin-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25PX;
 }
 
 .transport-item p {
+    font-family: var(--body1f);
     margin: 5px 0 15px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
+    padding-left: 25PX;
+    padding-right: 25px;
+}
+
+.inscriptionsonfilm {
+    font-family: var(--hea1f);
 }
 
 .film-registration {
-    background-color: #1a1a1a;
+    background-color: #212121;
     color: #fff;
     padding: 20px;
-    font-family: 'Georgia', serif;
+    font-family: ;
     line-height: 1.6;
     text-align: center;
 }
