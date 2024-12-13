@@ -79,6 +79,7 @@
 }
 
 .program-item h2 {
+    font-family: var(--hea2f);
     font-size: 20px;
     margin: 10px 0;
     text-align: center;
@@ -173,3 +174,126 @@
 
 /* stop faire une classe a chaque fois, mettre tout dans la meme (plus rapide) */
 
+.progfilm {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282828;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.avant-premiere {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: #282828;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.films {
+    display: block;
+    justify-content: center;
+    gap: 20px;
+}
+
+.film {
+    background-color: #282828;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.movie__poster {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.movie__info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.movie__info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.defile-container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.defile-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.defile-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.defile-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.defile-description {
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.defile-rules {
+    margin-top: 20px;
+}
+
+.rules-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.rules-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.rules-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.rules-note {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-align: justify;
+    color: #bbb;
+}

@@ -6,8 +6,9 @@
 - NOM : Hennequin De Meyer
 - PRÉNOM : Ethan
 - GROUPE : B1
-- URL du site : https://festivhaloween.netlify.app/
-- URL FIGMA :
+- URL du site : https://sae105.ethan-hennequindemeyer.fr/
+- URL FIGMA : https://www.figma.com/design/rPjRb4P76y671gaQwgsMQF/SA%C3%89-103?node-id=1-3&t=hWMpxA3eZi0RYXzJ-1
+
 
 ## Sujet
 
