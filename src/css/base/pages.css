@@ -46,7 +46,7 @@
 
 
 .program-section {
-    background-color: #1a1a1a;
+    background-color: #282828;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -55,8 +55,7 @@
 }
 
 .program-item {
-    background-color: #333;
-    border-radius: 10px;
+    background-color: #282828;
     padding: 15px;
     overflow: hidden;
 }
@@ -71,12 +70,10 @@
 
 .program-item a:hover img {
     transform: scale(1.05);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .program-item img {
     width: 100%;
-    border-radius: 10px;
     transition: transform 0.3s ease;
     display: block;
 }
@@ -84,7 +81,6 @@
 .program-item h2 {
     font-size: 20px;
     margin: 10px 0;
-    text-transform: uppercase;
     text-align: center;
     color: #ffffff;
 }
@@ -95,11 +91,9 @@
 }
 
 .daily-schedule {
-    background-color: #1a1a1a;
     color: #fff;
     padding: 20px;
     line-height: 1.6;
-    font-family: 'Georgia', serif;
 }
 
 .daily-schedule p {
@@ -136,7 +130,6 @@
     font-size: 24px;
     color: #ffffff;
     margin-bottom: 20px;
-    text-transform: uppercase;
 }
 
 .transport-section p {
@@ -149,7 +142,6 @@
     color: #fff;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-transform: uppercase;
 }
 
 .transport-item p {
@@ -171,7 +163,6 @@
     font-size: 24px;
     color: #ffffff;
     margin-bottom: 20px;
-    text-transform: uppercase;
 }
 
 .film-registration p {

@@ -13,7 +13,6 @@
     font-size: var(--hea1);
     color: #e60000;
     margin-bottom: 15px;
-    text-transform: uppercase;
 }
 
 .logo-footer img {
@@ -42,6 +41,8 @@
 }
 
 .footer-links {
+    font-family: Almendra SC;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -52,12 +53,10 @@
 }
 
 .footer-links a {
-    font-family: 'Antic Didone',sans-serif;
     font-size: 16px;
     color: #ffffff;
     text-decoration: none;
     transition: color 0.3s;
-    text-transform: uppercase;
 }
 
 .footer-links a:hover {

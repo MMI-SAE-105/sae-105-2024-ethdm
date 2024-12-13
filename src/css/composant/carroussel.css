@@ -1,15 +1,22 @@
 
 .carousel {
     width: 80%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    margin-bottom: 25px;
     overflow: hidden;
     position: relative;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+    border-radius: 1px;
+    background-color: #212121;
+    text-align: center;
 }
 
 .carousel__container {
     display: flex;
+    justify-content: center;
     transition: transform 0.3s ease-in-out;
 }
 
