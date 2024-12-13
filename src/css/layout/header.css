@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0px;
+    padding: 0px 6px;
     background-color: #282828;
 }
 
@@ -13,6 +13,12 @@
     font-family: var(--hea1f);
     font-weight: 400;
     color: white;
-    margin-left: 2rem;
+    margin-left: -1rem;
     -webkit-text-stroke:0.5px var(--bleu); ;
+}
+
+.header__menu-btn{
+        position: absolute;
+        top: -15px;
+        right: 1px;
 }
