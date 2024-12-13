@@ -1,0 +1,21 @@
+/**
+* Lightbox
+*/
+#lightbox{
+    background-color: #212121;
+    border: none;
+}
+
+#lightbox {
+      animation: open 1s forwards;
+    }
+  
+
+  @keyframes open {
+    from {
+      transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+  }

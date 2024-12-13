@@ -15,11 +15,13 @@
 
 
 .presentation h2 {
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .presentation h1 {
@@ -253,13 +255,13 @@
 }
 
 .title {
+    font-family: var(--hea1f);
     text-align: center;
     display: flex;
     justify-content:center ;
-    font-size: 1.5rem;
+    font-size: var(--hea2);
     margin-bottom: 20px;
     font-style: italic;
-    text-transform: uppercase;
 }
 
 .films {
@@ -354,4 +356,66 @@
     margin-top: 10px;
     text-align: justify;
     color: #bbb;
+}
+
+.pagef {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.uneclasse{
+    display:flex;
+    justify-content: center;
+}
+
+.gcontainer {
+    margin: 35px;
+    width: 250px;
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.gcontainer img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.synopsis {
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+.placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #555;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.info-section {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.info-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.info-section p {
+    margin: 5px 0;
+    color: #cccccc;
 }
